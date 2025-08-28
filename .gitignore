@@ -1,12 +1,36 @@
-# Ignore dataset
+# Ignore dataset files
 data/
 *.zip
+*.tar
+*.tar.gz
 
-# Ignore model weights
-models/*.h5
-models/*.keras
+# Ignore model checkpoints (only save final model in models/)
+checkpoints/
+*.h5
+*.keras
+*.pb
 
-# Ignore temporary files
+# Ignore Python cache
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter/Colab checkpoints
 .ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+ENV/
+.venv/
+
+# Ignore logs
+*.log
+
+# Ignore large output files
 outputs/
+results/
