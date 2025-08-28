@@ -1,0 +1,12 @@
+# Ignore dataset
+data/
+*.zip
+
+# Ignore model weights
+models/*.h5
+models/*.keras
+
+# Ignore temporary files
+__pycache__/
+.ipynb_checkpoints/
+outputs/
