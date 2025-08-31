@@ -1,6 +1,14 @@
 # 🚗 Distracted Driver Detection
 
-A deep learning project to detect distracted driver behaviors using CNNs.
+A deep learning project to detect distracted driving behaviors from images and videos using Convolutional Neural Networks (CNNs). This system classifies whether a driver is focused or distracted (e.g., texting, talking on the phone, eating, etc.), aiming to improve road safety.
+
+# 📌 Features
+✅ Detects multiple distracted driver behaviors
+✅ Built with TensorFlow/Keras CNN model
+✅ Trained on State Farm Distracted Driver Dataset
+✅ Includes real-time video simulation (Colab)
+✅ Streamlit app for easy deployment & demo
+✅ Organized folder structure for easy navigation
 
 ## 📂 Project Structure
 - `app/` → Streamlit web app
