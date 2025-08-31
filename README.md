@@ -38,5 +38,16 @@ streamlit run app.py
 ## 📊 Dataset
 Kaggle's **State Farm Distracted Driver Detection** dataset.
 
-## 📜 License
-This project is licensed under the MIT License.
+## 🛠️ Tech Stack
+1. Python 3.9+
+2. TensorFlow/Keras
+3. OpenCV (video processing)
+4. Streamlit (deployment)
+5. Matplotlib/Seaborn (visualizations)
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss.
+
+## 👨‍💻 Author
+📩 amitmondal201889@gmail.com
+ℹ️ www.linkedin.com/in/amit-mondal-672a4325b
